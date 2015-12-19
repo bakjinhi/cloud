@@ -1,0 +1,39 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-image: url('../../lib/images/mainbg.jpg');
+  background-position: center top;
+  background-size: cover;
+}
+.wrap {
+  height: 100%;
+}
+.wrap header {
+  height: 100px;
+  padding: 0 20px;
+  -webkit-box-shadow: 0 1px 10px #666666;
+  -moz-box-shadow: 0 1px 10px #666666;
+  box-shadow: 0 1px 10px #666666;
+}
+.wrap header h1 a {
+  display: block;
+  width: 104px;
+  height: 52px;
+  padding: 25px;
+  text-indent: -9999px;
+  background-image: url('../../lib/images/logo.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 0.7s cubic-bezier(0, 1, 1, 0) 0s;
+  overflow: hidden;
+}
+.wrap header h1 a:hover {
+  transform: rotatey(180deg);
+}
